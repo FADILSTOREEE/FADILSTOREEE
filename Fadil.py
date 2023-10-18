@@ -75,7 +75,7 @@ def banner():
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
     os.system('clear');banner()
-    print ('\n%s [01] Login via token \n [02] Cara mendapatkan token \n [%s00%s] Keluar'%(P,M,P))
+    print ('\n%s [01] Login token fb \n [02] Cara mendapatkan token \n [%s00%s] Keluar'%(P,M,P))
     rom = raw_input('\n%s [?] Menu : %s'%(P,K))
     if rom in(""):
     	print("%s [!] Isi yang benar kentod "%(M));exit()
@@ -90,7 +90,7 @@ def masuk():
             open('token.txt', 'w').write(romz);login_bot(romz)
             exec(base64.b64decode('b3Muc3lzdGVtKCd4ZGctb3BlbiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vcm9taS5hZnJpemFsLjEwMicpO21lbnUoKQ=='))
         except (KeyError,IOError):
-        	print("%s [!] Token invalid "%(M));masuk()
+        	print("%s [!] Token sukses "%(M));masuk()
     elif rom in ('2', '02'):
     	print ("\n%s%s Berikut cara nya :"%(H,til));jeda(2)
         print (" - siapkan akun facebook (wajib akun tumbal)");jeda(2)
