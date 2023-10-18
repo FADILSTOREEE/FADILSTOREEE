@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
-# Made With ❤️ By FADILSTOREE Project
+# Made With ❤️ By Dapunta And XNSCODE Project
 # Update V99.9
-_auth01_ = 'FADILSTOREE'
+_auth01_ = 'Dapunta AR'
 
 # Author : FADILSTOREE 
-# Whatsapp (FADILSTOREE Bot_Key): 083110669758
+# Whatsapp (Dapunta Bot_Key)      : 083110669758
+# YouTube (Xayonara.ID)           : Youtube.com/channel/UCZqnZlJ0jfoWSnXrNEj5JHA
+
 
 
 ### Import Module
@@ -112,8 +114,8 @@ def clear():
 def banner():
     _logo_line_1_ = ('%s   _______ __         ___'%(O))
     _logo_line_2_ = ('%s  / __/ (_) /____ %s©  %s<  /  ╔═══════════════════════╗'%(O,P,O))
-    _logo_line_3_ = ('%s / _// / / __/ -_)   / /   ║  %sCoded By FADILSTOREE  %s║'%(O,P,O))
-    _logo_line_4_ = ('%s/___/_/_/\__/\__/  _/ /_   ║    %s• STOREE•    %s║'%(O,P,O))
+    _logo_line_3_ = ('%s / _// / / __/ -_)   / /   ║  %sCoded By FADILSTOREE %s║'%(O,P,O))
+    _logo_line_4_ = ('%s/___/_/_/\__/\__/  _/ /_   ║    %s• STORE •    %s║'%(O,P,O))
     _logo_line_5_ = ('%sMulti Brute Force %s/____/   ╚═══════════════════════╝'%(P,O))
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
@@ -166,7 +168,7 @@ def menu_log():
             _cici_cici_()
         except (KeyError,IOError):
             _dapunta_cici_('%s║'%(O))
-            jalan('%s╚══[%s!%s] %s "Token berasil" %(M,P,M,P))
+            jalan('%s╚══[%s!%s] %sToken Invalid'%(M,P,M,P))
             bersih()
             menu_log()
     elif pmu in ['2','02','002','b']:
