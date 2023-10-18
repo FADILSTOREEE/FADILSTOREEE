@@ -166,7 +166,7 @@ def menu_log():
             _cici_cici_()
         except (KeyError,IOError):
             _dapunta_cici_('%s║'%(O))
-            jalan('%s╚══[%s!%s] %sToken Invalid'%(M,P,M,P))
+            jalan('%s╚══[%s!%s] %s "Token berasil" %(M,P,M,P))
             bersih()
             menu_log()
     elif pmu in ['2','02','002','b']:
